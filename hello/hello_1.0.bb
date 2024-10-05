@@ -7,7 +7,7 @@ SRC_URI = "file://hello.c \
 "
 S = "${WORKDIR}/sources"
 UNPACKDIR = "${S}"
-
+TARGET_CC_ARCH += "${LDFLAGS}"
 do_compile() {
     oe_runmake
 }
