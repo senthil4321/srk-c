@@ -24,6 +24,12 @@ Oldham coupling, pantograph, compliant bistable switch, toggle clamp,
 universal joint, quick-return, Chebyshev lambda linkage, worm drive,
 cycloidal drive.
 
+**Set 3** (mechanisms 21–30, all in one file):
+[21-30-mechanisms-set-3.md](21-30-mechanisms-set-3.md): elliptical
+trammel, scissor lift, Watt's linkage, Sarrus linkage,
+Peaucellier–Lipkin linkage, GT2 timing belt drive, barrel cam,
+herringbone gears, straight bevel gears, strain wave drive.
+
 Read [00-printing-and-modeling-rules.md](00-printing-and-modeling-rules.md)
 first. Every mechanism file refers back to its clearances and print rules.
 
