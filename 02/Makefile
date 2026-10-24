@@ -1,9 +1,9 @@
 CFLAGS ?= -Wall -Wextra -O2
 
-all: alice_bob
+all: b2a_a2b
 
-alice_bob: alice_bob.c
+b2a_a2b: b2a_a2b.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $<
 
 clean:
-	rm -f alice_bob
+	rm -f b2a_a2b
