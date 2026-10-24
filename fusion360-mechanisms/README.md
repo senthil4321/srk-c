@@ -18,6 +18,12 @@ but a person can follow them by hand too.
 | 09 | [Geneva drive](09-geneva-drive.md) | Continuous → stepped rotation | Hard |
 | 10 | [Planetary gearbox](10-planetary-gearbox.md) | High-ratio compact reduction | Hard |
 
+**Set 2** (mechanisms 11–20, all in one file):
+[11-20-mechanisms-set-2.md](11-20-mechanisms-set-2.md): lead screw,
+Oldham coupling, pantograph, compliant bistable switch, toggle clamp,
+universal joint, quick-return, Chebyshev lambda linkage, worm drive,
+cycloidal drive.
+
 Read [00-printing-and-modeling-rules.md](00-printing-and-modeling-rules.md)
 first. Every mechanism file refers back to its clearances and print rules.
 
