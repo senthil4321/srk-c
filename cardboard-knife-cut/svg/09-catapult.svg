@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="302.00mm" height="185.00mm" viewBox="0 0 302.00 185.00">
+<title>09 Catapult</title>
+<g id="catapult-base">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 15.000,85.000 L 195.000,85.000 L 205.000,75.000 L 205.000,15.000 L 195.000,5.000 L 15.000,5.000 L 5.000,15.000 L 5.000,75.000 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 119.500,65.500 L 150.500,65.500 L 150.500,62.500 L 119.500,62.500 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 119.500,27.500 L 150.500,27.500 L 150.500,24.500 L 119.500,24.500 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 25.000,48.000 L 37.000,48.000 L 37.000,42.000 L 25.000,42.000 Z"/>
+</g>
+<g id="upright">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 217.000,105.000 L 232.000,105.000 L 232.000,108.000 L 262.000,108.000 L 262.000,105.000 L 277.000,105.000 L 277.000,20.000 L 262.000,5.000 L 232.000,5.000 L 217.000,20.000 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 243.000,29.000 L 251.000,29.000 L 251.000,21.000 L 243.000,21.000 Z"/>
+</g>
+<g id="arm">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 5.000,145.000 L 225.000,145.000 L 225.000,120.000 L 5.000,120.000 L 5.000,129.500 L 13.000,129.500 L 13.000,135.500 L 5.000,135.500 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 41.000,136.500 L 49.000,136.500 L 49.000,128.500 L 41.000,128.500 Z"/>
+</g>
+<g id="cup">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 252.000,180.000 L 282.000,180.000 L 282.000,165.000 L 297.000,165.000 L 297.000,135.000 L 282.000,135.000 L 282.000,120.000 L 252.000,120.000 L 252.000,135.000 L 237.000,135.000 L 237.000,165.000 L 252.000,165.000 Z"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 252.000,165.000 L 282.000,165.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 282.000,165.000 L 282.000,135.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 252.000,135.000 L 282.000,135.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 252.000,165.000 L 252.000,135.000"/>
+</g>
+</svg>

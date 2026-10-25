@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180.00mm" height="188.00mm" viewBox="0 0 180.00 188.00">
+<title>07 Four-bar linkage toy</title>
+<g id="base">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 13.000,75.000 L 167.000,75.000 L 175.000,67.000 L 175.000,13.000 L 167.000,5.000 L 13.000,5.000 L 5.000,13.000 L 5.000,67.000 Z"/>
+<circle cx="30.000" cy="40.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+<circle cx="150.000" cy="40.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+</g>
+<g id="crank">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 11.000,111.000 L 63.000,111.000 L 69.000,105.000 L 69.000,93.000 L 63.000,87.000 L 11.000,87.000 L 5.000,93.000 L 5.000,105.000 Z"/>
+<circle cx="17.000" cy="99.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+<circle cx="57.000" cy="99.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+</g>
+<g id="coupler">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 11.000,147.000 L 133.000,147.000 L 139.000,141.000 L 139.000,129.000 L 133.000,123.000 L 11.000,123.000 L 5.000,129.000 L 5.000,141.000 Z"/>
+<circle cx="17.000" cy="135.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+<circle cx="127.000" cy="135.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+</g>
+<g id="rocker">
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 11.000,183.000 L 113.000,183.000 L 119.000,177.000 L 119.000,165.000 L 113.000,159.000 L 11.000,159.000 L 5.000,165.000 L 5.000,177.000 Z"/>
+<circle cx="17.000" cy="171.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+<circle cx="107.000" cy="171.000" r="1.5" fill="none" stroke="#ff0000" stroke-width="0.2"/>
+</g>
+</svg>

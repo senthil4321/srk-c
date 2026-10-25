@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290.00mm" height="270.00mm" viewBox="0 0 290.00 270.00">
+<title>03 Desk organizer box (100 x 80 x 90)</title>
+<g id="organizer-net">
+<path fill="#d9d9d9" stroke="none" d="M 195.000,263.000 L 210.000,248.000 L 210.000,192.000 L 195.000,177.000 Z"/>
+<path fill="#d9d9d9" stroke="none" d="M 195.000,93.000 L 210.000,78.000 L 210.000,22.000 L 195.000,7.000 Z"/>
+<path fill="#d9d9d9" stroke="none" d="M 95.000,263.000 L 80.000,248.000 L 80.000,192.000 L 95.000,177.000 Z"/>
+<path fill="#d9d9d9" stroke="none" d="M 95.000,93.000 L 80.000,78.000 L 80.000,22.000 L 95.000,7.000 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 95.000,265.000 L 195.000,265.000 L 195.000,263.000 L 210.000,248.000 L 210.000,192.000 L 195.000,177.000 L 195.000,175.000 L 285.000,175.000 L 285.000,95.000 L 195.000,95.000 L 195.000,93.000 L 210.000,78.000 L 210.000,22.000 L 195.000,7.000 L 195.000,5.000 L 95.000,5.000 L 95.000,7.000 L 80.000,22.000 L 80.000,78.000 L 95.000,93.000 L 95.000,95.000 L 5.000,95.000 L 5.000,175.000 L 95.000,175.000 L 95.000,177.000 L 80.000,192.000 L 80.000,248.000 L 95.000,263.000 Z"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 95.000,175.000 L 195.000,175.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 95.000,95.000 L 195.000,95.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 95.000,175.000 L 95.000,95.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 195.000,175.000 L 195.000,95.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 195.000,263.000 L 195.000,177.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 95.000,263.000 L 95.000,177.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 195.000,93.000 L 195.000,7.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 95.000,93.000 L 95.000,7.000"/>
+</g>
+</svg>

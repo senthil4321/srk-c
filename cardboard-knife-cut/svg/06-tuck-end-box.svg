@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="222.00mm" height="200.00mm" viewBox="0 0 222.00 200.00">
+<title>06 Tuck-end box (60 x 40 x 80)</title>
+<g id="tuck-box-net">
+<path fill="#d9d9d9" stroke="none" d="M 17.000,140.000 L 17.000,60.000 L 5.000,66.000 L 5.000,134.000 Z"/>
+<path fill="none" stroke="#ff0000" stroke-width="0.2" d="M 17.000,140.000 L 17.000,180.000 L 22.000,195.000 L 72.000,195.000 L 77.000,180.000 L 77.000,140.000 L 82.000,160.000 L 112.000,160.000 L 117.000,140.000 L 177.000,140.000 L 182.000,160.000 L 212.000,160.000 L 217.000,140.000 L 217.000,60.000 L 212.000,40.000 L 182.000,40.000 L 177.000,60.000 L 177.000,20.000 L 172.000,5.000 L 122.000,5.000 L 117.000,20.000 L 117.000,60.000 L 112.000,40.000 L 82.000,40.000 L 77.000,60.000 L 17.000,60.000 L 5.000,66.000 L 5.000,134.000 Z"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 17.000,140.000 L 17.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 77.000,140.000 L 77.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 117.000,140.000 L 117.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 177.000,140.000 L 177.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 17.000,140.000 L 77.000,140.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 17.000,180.000 L 77.000,180.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 77.000,140.000 L 117.000,140.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 177.000,140.000 L 217.000,140.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 117.000,60.000 L 177.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 117.000,20.000 L 177.000,20.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 77.000,60.000 L 117.000,60.000"/>
+<path fill="none" stroke="#0033e6" stroke-width="0.2" stroke-dasharray="3,2" d="M 177.000,60.000 L 217.000,60.000"/>
+</g>
+</svg>
