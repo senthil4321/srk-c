@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.000mm" height="36.000mm" viewBox="0 0 78.000 36.000">
+<title>05 Box front / back - 2 mm mild steel - qty 2</title>
+<g id="CUT" fill="none" stroke="#ff0000" stroke-width="0.1">
+<path d="M 2.0000,32.0000 L 16.0000,32.0000 L 16.0000,34.0000 L 26.0000,34.0000 L 26.0000,32.0000 L 52.0000,32.0000 L 52.0000,34.0000 L 62.0000,34.0000 L 62.0000,32.0000 L 76.0000,32.0000 L 76.0000,2.0000 L 2.0000,2.0000 Z"/>
+<path d="M 6.9000,22.1000 L 9.1000,22.1000 L 9.1000,11.9000 L 6.9000,11.9000 Z"/>
+<path d="M 68.9000,22.1000 L 71.1000,22.1000 L 71.1000,11.9000 L 68.9000,11.9000 Z"/>
+</g>
+<g id="BEND" fill="none" stroke="#0000ff" stroke-width="0.1" stroke-dasharray="2,1">
+</g>
+<g id="ETCH" fill="#00a000" font-family="Helvetica, Arial, sans-serif">
+</g></svg>
