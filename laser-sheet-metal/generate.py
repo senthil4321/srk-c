@@ -52,6 +52,8 @@ class Part:
         self.circles = []
         self.bends = []   # ((x1, y1), (x2, y2), note)
         self.texts = []   # (x, y, height, text)
+        self.rods = []    # (x, y, kind): holes for threaded / smooth rods
+        self.meta = {}    # positions used by check.py (pivots, centers)
         self.offset = (0.0, 0.0)  # world position = local + offset
 
     def contour(self, verts):
@@ -80,6 +82,7 @@ class Part:
         self.bends = [((a[0] - x0, a[1] - y0), (b[0] - x0, b[1] - y0), n)
                       for a, b, n in self.bends]
         self.texts = [(x - x0, y - y0, h, s) for x, y, h, s in self.texts]
+        self.rods = [(x - x0, y - y0, k) for x, y, k in self.rods]
         return self
 
 
@@ -382,8 +385,16 @@ EXAMPLES = [ex01_test_coupon, ex02_l_bracket, ex03_gear_pair, ex04_four_bar,
             ex05_tab_box, ex06_ratchet, ex07_nameplate]
 
 
+def all_examples():
+    """Examples 01-07 from this file, 08-20 (two plates joined by rods)
+    from rod_examples.py. Returns (functions, titles, bills of material)."""
+    import rod_examples
+    return (EXAMPLES + rod_examples.EXAMPLES,
+            {**TITLES, **rod_examples.TITLES}, rod_examples.BOM)
+
+
 def build_parts(normalize=True):
-    groups = [ex() for ex in EXAMPLES]
+    groups = [ex() for ex in all_examples()[0]]
     if normalize:
         for g in groups:
             for p in g:
@@ -502,9 +513,11 @@ def write_pdf(groups, path):
     pw, ph = A4[0] / mm, A4[1] / mm
     c = canvas.Canvas(path, pagesize=A4)
     c.setTitle("Laser sheet metal examples - paper check 1:1")
+    _, titles, boms = all_examples()
     for group in groups:
+        num = group[0].name[:2]
         c.setFont("Helvetica-Bold", 12)
-        c.drawString(20 * mm, (ph - 15) * mm, TITLES[group[0].name[:2]])
+        c.drawString(20 * mm, (ph - 15) * mm, titles[num])
         c.setFont("Helvetica", 8)
         c.drawString(20 * mm, (ph - 21) * mm,
                      "PRINT AT 100 % / ACTUAL SIZE (no 'fit to page'). "
@@ -512,9 +525,18 @@ def write_pdf(groups, path):
         c.drawString(20 * mm, (ph - 25) * mm,
                      "Black = cut, blue dashed = bend line, green = engraving. "
                      f"Material: {group[0].material}.")
+        y_text = ph - 25
+        if num in boms:
+            c.setFont("Helvetica-Bold", 8)
+            y_text -= 5
+            c.drawString(20 * mm, y_text * mm, "Hardware:")
+            c.setFont("Helvetica", 8)
+            for line in boms[num]:
+                y_text -= 3.6
+                c.drawString(22 * mm, y_text * mm, "- " + line)
         scale_bars(c)
         # simple shelf packing, left to right, top to bottom
-        x, y_top, row_h = 22.0, ph - 32, 0.0
+        x, y_top, row_h = 22.0, y_text - 7, 0.0
         for p in group:
             x0, y0, x1, y1 = p.bbox()
             w, h = x1 - x0, y1 - y0
